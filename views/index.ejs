@@ -13,7 +13,7 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
   <!-- Base CSS -->
-  <link rel="stylesheet" href="/public/css/base.css">
+  <link rel="stylesheet" href="/css/base.css">
 </head>
 
 <body class="home">
@@ -60,17 +60,9 @@
   <div id="books" class="books">
       <ul>
           <h2 > Books that I&apos;ve read in 2019</h2>
-          <li>Can&apos;t Hurt Me by David Goggins</li>
-          <li>Toddlers by Joanne Mallon</li>
-          <li>Shoe Dog by Phil Knight</li>
-          <li>The Relaxed Mind by Dza Kilung Rinpoche</li>
-          <li>The Happiness Hypothesis by Jon Haidt</li>
-          <li>Island of the Lost by Joan Druett</li>
-          <li>How Your Car Works by Arvid Linde</li>
-          <li>The Float Tank Cure by Shane Scott</li>
-          <li>The 5 Love Languages by Gary Chapman</li>
-	  <li>Atomic Habits by James Clear</li>
-	  <li>Code by Charles Petzold</li>
+          <% for (let elem in bookMap) {  %>
+            <li><%=bookMap[elem].title%> by <%=bookMap[elem].author%></li>
+          <%} %>
       </ul>
   </div>
   </br>
