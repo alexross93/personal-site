@@ -3,8 +3,8 @@ const Schema = mongoose.Schema;
 
 //create book Schema and model
 const bookSchema = new Schema ({
-    title: {type: String},
-    author: {type: String}
+    title: {type: String, required: true},
+    author: {type: String, required:true}
 });
 
 const Book = mongoose.model('book', bookSchema);

@@ -14,18 +14,23 @@ mongoose.connect(process.env.dbURI, { useNewUrlParser: true }, () => {
   console.log('Connected to MongoDB');
 });
 
-app.use(bodyParser.json());
-
 // static files
 app.use(express.static('public'));
-
-app.use(express.urlencoded({ extended: false }));
 
 // set up view engine
 app.set('view engine', 'ejs');
 
+app.use(bodyParser.json());
+
+app.use(express.urlencoded({ extended: false }));
+
 // set up routes
 app.use('/', require('./routes/routes'));
+
+//error handling middleware
+app.use( (error, req, res, next) => {
+  res.status(422).send({error: error.message});
+});
 
 const server = app.listen(process.env.PORT || 3000, '0.0.0.0', () => {
     console.log('Listening on port ' + (process.env.PORT || 3000));
