@@ -12,6 +12,7 @@ exports.index = (req, res) => {
   });
   {bookMap: bookMap}
   */
+ console.log('------TESTBRANCH---------')
 
  res.render('index');
 }
