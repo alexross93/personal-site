@@ -2,12 +2,11 @@ const Book = require('../models/Book');
 
 exports.index = (req, res) => {
  
-  var error = '';
+  var error = 'start';
   Book.find({}, function(err, books) {
-    if(err){error = 'no books';
-  }else{
-      error = 'got some books'
-  }
+    if(err){error = 'no books';}
+
+    error = 'ok';
   });
 
   /* 
