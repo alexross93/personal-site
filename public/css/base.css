@@ -1,6 +1,41 @@
+h3, ul {
+  margin-top: 10%;
+  font-family: Century Gothic;
+}
+
+.hi {
+  padding-top: 10%;
+  font-size: 2vw; 
+  width: 75%;
+}
+
+.about {
+  font-size: 2vw; 
+  width: 75%;
+  margin-left:5%;
+  text-align: left;
+}
+
+.books {
+  font-size: 2vw; 
+  width: 75%;
+  margin:auto;
+  text-align: center;
+}
+
+body.home nav {
+  position: fixed;
+  z-index: 999;
+}
+
 body {
   background-color: #FFFFFF;
   font-family: Century Gothic;
+}
+
+.para-image {
+  width:100%;
+  display:block
 }
 
 /* profile section */
@@ -21,33 +56,11 @@ body {
 
 }
 
-.about {
-  font-size: 25px; 
-  width: 75%;
-  margin-left:5%;
-  text-align: left;
-}
-
-.books {
-  font-size: 25px; 
-  width: 75%;
-  margin:auto;
-  text-align: center;
-}
-
 nav {
   background: #3778C2;
 }
 
-h3, ul {
-  margin-top: 10%;
-  font-family: Century Gothic;
-}
 
-body.home nav {
-  position: fixed;
-  z-index: 999;
-}
 
 header#writepub-header{
   padding-top: 64px;
