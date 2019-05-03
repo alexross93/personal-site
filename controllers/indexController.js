@@ -1,7 +1,7 @@
 const Book = require('../models/Book');
 
 exports.index = (req, res) => {
-
- res.render('index',{ test: true});
+  // ,{ test: true}
+ res.render('index');
 }
 
