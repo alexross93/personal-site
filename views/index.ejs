@@ -46,11 +46,82 @@
       <div class="parallax scrollspy">
         <img src="/images/waves.jpg" alt="" class="responsive-img">
       </div>
+  </div>
+
+  <div id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="row">
+      <div class="col s12 l6">
+        <div class="card">
+          <div class="card-image">
+            <img src="/images/workout.jpg" alt="">
+            <a href="https://workout-viz.herokuapp.com/" class="halfway-fab btn-floating blue">
+              <i class="material-icons">fitness_center</i>
+            </a>
+          </div>
+          <div class="card-content">
+            <span class="card-title">Workout viz</span>
+            <p>Since the beginning of the year I&apos;ve been going for 30 minute runs on the eliptical machine at my local city gym. 
+              After each workout I note in my phone the time of day, distance ran in miles, calories burned and total strides taken.  
+              This Node.js app is connected to my remote MongoDB collection so that I can visualize the data.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://workout-viz.herokuapp.com/">Go to site</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 l6">
+          <div class="card">
+              <div class="card-image">
+                <img src="/images/plant.png" alt="">
+                <a href="https://github.com/alexross93/subartic-plant-tracker" class="halfway-fab btn-floating green">
+                  <i class="material-icons">local_florist</i>
+                </a>
+              </div>
+              <div class="card-content">
+                <span class="card-title">Subartic plant tracker</span>
+                <p>I learned how to code in C# by creating this app which includes full database connectivity
+                  to MS SQL 2017 and a dynamic sort feature. The data was taken from a csv file that contained 
+                  different subartic plants with all their various properties.
+                  I found that this was a great way to learn a new programming language.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/alexross93/subartic-plant-tracker">Go to GitHub repo</a>
+              </div>
+            </div>
+        </div>
+        <div class="col s12 l6">
+            <div class="card">
+                <div class="card-image">
+                  <img src="/images/notes.png" alt="">
+                  <a href="https://github.com/alexross93/custom-txt-to-json" class="halfway-fab btn-floating orange">
+                    <i class="material-icons">format_align_left</i>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <span class="card-title">Custom txt to json</span>
+                  <p>I made this Python app because I needed to convert all of my workout notes to JSON 
+                    and then insert them into my remote MongoDB collection connected to the Workout-viz
+                    app using it&apos;s REST API via Postman</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/alexross93/custom-txt-to-json">Go to GitHub repo</a>
+                </div>
+              </div>
+          </div>
     </div>
+  </div>
 
+ <!-- beach parallax  -->
+  <div class="parallax-container services-img scrollspy">
+    <div class="parallax">
+      <img src="/images/beach.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
 
-  <!-- books -->
-  <div id="books" class="container books">
+   <!-- books -->
+   <div id="books" class="container books">
     <ul>
       <h2 > Books that I&apos;ve read in 2019</h2>
       <li>Can&apos;t Hurt Me by David Goggins</li>
@@ -68,22 +139,19 @@
   </div>
   </br>
 
- <!-- more  -->
-  <div class="parallax-container services-img scrollspy">
-    <div class="parallax">
-      <img src="/images/beach.jpg" alt="" class="responsive-img">
-    </div>
-  </div>
-
-  <!-- contact  -->
-  <section class="section container scrollspy" id="contact">
-      <div class="row">
-        <div class="col s12 l5">
-          <h2 class="grey-text text-darken-3" class="verdana">Contact</h2>
-          <h4>alex.graham.ross@gmail.com</h4>
+  <footer class="page-footer grey darken-3">
+    <!-- contact  -->
+    <section class="section container scrollspy" id="contact">
+        <div class="row">
+          <div class="col s12 l5">
+            <h2>Contact</h2>
+            <h4>alex.graham.ross@gmail.com</h4>
+          </div>
         </div>
-      </div>
     </section>
+  </footer>
+
+  
   
 
 <!-- Compiled and minified JavaScript -->
