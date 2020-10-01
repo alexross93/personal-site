@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Alex Ross</title>
   <!-- font awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified CSS -->
@@ -19,27 +19,27 @@
 <body class="home">
   <%- include('partials/navbar.ejs'); %>
   <header id="header">
-      <div class="container section ">
-          <div class="center-align">
-            <h3>Hi, I'm Alex!</h3>
-            <div class="row">
-                <div class="profile-background col-lg-4">
-                    <img src="/images/me.jpeg" alt="Alex" class="profile-image">
-                </div>
-                <p class="center-align flow-text about hide-on-small-only">
-                    Welcome to my site. I will be revamping this site to be a Quasar SPA in the near feature.
-                  </p>
-            </div>
+    <div class="container section ">
+      <div class="center-align">
+        <h3>Hi, I'm Alex!</h3>
+        <div class="row">
+          <div class="profile-background col-lg-4">
+            <img src="/images/me.jpeg" alt="Alex" class="profile-image">
           </div>
+          <p class="center-align flow-text about hide-on-small-only">
+            Welcome to my site. I will be revamping this site in the near future.
+          </p>
+        </div>
       </div>
+    </div>
   </header>
 
 
   <!-- wave parallax  -->
   <div class="parallax-container">
-      <div class="parallax scrollspy">
-        <img src="/images/waves.jpg" alt="" class="responsive-img">
-      </div>
+    <div class="parallax scrollspy">
+      <img src="/images/waves.jpg" alt="" class="responsive-img">
+    </div>
   </div>
 
   <div id="projects" class="container">
@@ -55,8 +55,10 @@
           </div>
           <div class="card-content">
             <span class="card-title">Workout Viz</span>
-            <p>Since the beginning of the year I&apos;ve been going for 30 minute runs on the eliptical machine at my local city gym. 
-              After each workout I note in my phone the time of day, distance ran in miles, calories burned and total strides taken.  
+            <p>Since the beginning of the year I&apos;ve been going for 30 minute runs on the eliptical machine at my
+              local city gym.
+              After each workout I note in my phone the time of day, distance ran in miles, calories burned and total
+              strides taken.
               This Node.js app is connected to my remote MongoDB collection so that I can visualize the data.</p>
           </div>
           <div class="card-action">
@@ -65,80 +67,80 @@
         </div>
       </div>
       <div class="col s12 l6">
-          <div class="card">
-              <div class="card-image">
-                <img src="/images/plant.png" alt="">
-                <a href="https://github.com/alexross93/subartic-plant-tracker" class="halfway-fab btn-floating green">
-                  <i class="material-icons">local_florist</i>
-                </a>
-              </div>
-              <div class="card-content">
-                <span class="card-title">Subartic Plant Tracker</span>
-                <p>I learned how to code in C# by creating this app which includes full database connectivity
-                  to MS SQL 2017 and a dynamic sort feature. The data was taken from a csv file that contained 
-                  different subartic plants with all their various properties.
-                  I found that this was a great way to learn a new programming language.
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="https://github.com/alexross93/subartic-plant-tracker">Go to GitHub repo</a>
-              </div>
-            </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="/images/plant.png" alt="">
+            <a href="https://github.com/alexross93/subartic-plant-tracker" class="halfway-fab btn-floating green">
+              <i class="material-icons">local_florist</i>
+            </a>
+          </div>
+          <div class="card-content">
+            <span class="card-title">Subartic Plant Tracker</span>
+            <p>I learned how to code in C# by creating this app which includes full database connectivity
+              to MS SQL 2017 and a dynamic sort feature. The data was taken from a csv file that contained
+              different subartic plants with all their various properties.
+              I found that this was a great way to learn a new programming language.
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/alexross93/subartic-plant-tracker">Go to GitHub repo</a>
+          </div>
         </div>
-        <div class="col s12 l6">
-            <div class="card">
-                <div class="card-image">
-                  <img src="/images/notes.png" alt="">
-                  <a href="https://github.com/alexross93/custom-txt-to-json" class="halfway-fab btn-floating orange">
-                    <i class="material-icons">format_align_left</i>
-                  </a>
-                </div>
-                <div class="card-content">
-                  <span class="card-title">Custom Txt To Json</span>
-                  <p>I made this Python app because I needed to convert all of my workout notes to JSON 
-                    and then insert them into my remote MongoDB collection connected to the Workout-viz
-                    app using it&apos;s REST API via Postman.</p>
-                </div>
-                <div class="card-action">
-                  <a href="https://github.com/alexross93/custom-txt-to-json">Go to GitHub repo</a>
-                </div>
-              </div>
+      </div>
+      <div class="col s12 l6">
+        <div class="card">
+          <div class="card-image">
+            <img src="/images/notes.png" alt="">
+            <a href="https://github.com/alexross93/custom-txt-to-json" class="halfway-fab btn-floating orange">
+              <i class="material-icons">format_align_left</i>
+            </a>
           </div>
-          <div class="col s12 l6">
-            <div class="card">
-              <div class="card-image">
-                <img src="/images/ebook.png" alt="">
-                <a href="https://writepub.herokuapp.com/" class="halfway-fab btn-floating red">
-                  <i class="material-icons">book</i>
-                </a>
-              </div>
-              <div class="card-content">
-                <span class="card-title">WritePub</span>
-                <p>I collaborated on an Agile software development project with fellow classmates
-                  in creating a website for aspiring authors who want to have their work published
-                  on e-books. In coordination with the client we came up with several functional requirments.
-                  I primarily worked on the user authentication for sign up and log in features.
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="https://writepub.herokuapp.com/">Go to site</a>
-              </div>
-            </div>
+          <div class="card-content">
+            <span class="card-title">Custom Txt To Json</span>
+            <p>I made this Python app because I needed to convert all of my workout notes to JSON
+              and then insert them into my remote MongoDB collection connected to the Workout-viz
+              app using it&apos;s REST API via Postman.</p>
           </div>
+          <div class="card-action">
+            <a href="https://github.com/alexross93/custom-txt-to-json">Go to GitHub repo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 l6">
+        <div class="card">
+          <div class="card-image">
+            <img src="/images/ebook.png" alt="">
+            <a href="https://writepub.herokuapp.com/" class="halfway-fab btn-floating red">
+              <i class="material-icons">book</i>
+            </a>
+          </div>
+          <div class="card-content">
+            <span class="card-title">WritePub</span>
+            <p>I collaborated on an Agile software development project with fellow classmates
+              in creating a website for aspiring authors who want to have their work published
+              on e-books. In coordination with the client we came up with several functional requirments.
+              I primarily worked on the user authentication for sign up and log in features.
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="https://writepub.herokuapp.com/">Go to site</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
- <!-- beach parallax  -->
+  <!-- beach parallax  -->
   <div class="parallax-container services-img scrollspy">
     <div class="parallax">
       <img src="/images/beach.jpg" alt="" class="responsive-img">
     </div>
   </div>
 
-   <!-- books -->
-   <div id="books" class="container books">
+  <!-- books -->
+  <div id="books" class="container books">
     <ul>
-      <h2 > Books that I&apos;ve read in 2019</h2>
+      <h2> Books that I&apos;ve read in 2019</h2>
       <li>Can&apos;t Hurt Me by David Goggins</li>
       <li>Toddlers by Joanne Mallon</li>
       <li>Shoe Dog by Phil Knight</li>
@@ -165,41 +167,40 @@
   <footer class="page-footer blue darken-3">
     <!-- contact  -->
     <div class="container" id="contact">
-        <div class="row">
-          <div class="col s12 l5">
-            <h2>Contact</h2>
-            <p>
-              <a href="mailto:alex.graham.ross@gmail.com" class="btn-floating btn-small blue">
-                <i class="fa fa-envelope"></i>
-              </a>
-              alex.graham.ross@gmail.com
-            </p>
-            <p>
-              <a href="https://github.com/alexross93" class="btn-floating btn-small blue">
-                <i class="fab fa-github"></i>
-              </a>
-              github.com/alexross93
-            </p>
+      <div class="row">
+        <div class="col s12 l5">
+          <h2>Contact</h2>
+          <p>
+            <a href="mailto:alex.graham.ross@gmail.com" class="btn-floating btn-small blue">
+              <i class="fa fa-envelope"></i>
+            </a>
+            alex.graham.ross@gmail.com
+          </p>
+          <p>
+            <a href="https://github.com/alexross93" class="btn-floating btn-small blue">
+              <i class="fab fa-github"></i>
+            </a>
+            github.com/alexross93
+          </p>
           </br>
-          </div>
         </div>
       </div>
+    </div>
   </footer>
 
-<!-- Compiled and minified JavaScript -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-<script>
-  $(document).ready(function () {
-    $('.sidenav').sidenav();
-    $('.parallax').parallax();
-    $('.tabs').tabs();
-    $('.tooltipped').tooltip();
-    $('.scrollspy').scrollSpy();
-    $('.modal').modal(); 
-  });
-  
-</script>  
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.tooltipped').tooltip();
+      $('.scrollspy').scrollSpy();
+      $('.modal').modal();
+    });
+  </script>
 </body>
 
 </html>
