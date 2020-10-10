@@ -15,10 +15,10 @@ h3{
 }
 
 .books {
-  font-size: 2vw; 
+  font-size: 1.5vw; 
   width: 75%;
   margin:auto;
-  text-align: center;
+  text-align: left;
 }
 
 body.home nav {
@@ -39,19 +39,11 @@ body {
 /* profile section */
 
 .profile-image { 
-  height:200px;
+  height:275px;
   border-radius:50%;
   margin:2.5rem auto;
-  box-shadow:1px 1px 0.7rem rgba(0,0,0,0.2)
 }
 
-.profile-image-shrink { 
-  height:50px;
-  border-radius:50%;
-  margin:auto;
-  padding-top: 10px;
-
-}
 
 nav {
   background: #1565c0;
@@ -68,4 +60,10 @@ nav {
 li {
   margin-left: 10px;
   list-style-type: circle;
+  display: list-item;
+}
+
+.list-item {
+  list-style-type: circle;
+  display: list-item;"
 }
